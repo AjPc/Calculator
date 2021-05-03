@@ -1,0 +1,48 @@
+.container {
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.titulo{
+  color: black;
+  text-shadow: 3px 3px 5px rgb(12, 233, 78), 0px 0px 3px red;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.centrao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}
+
+.pantalla {
+  padding: 0.5cm;
+  border: 1px solid gray;
+  min-height: 80px;
+  background-color: rgb(184, 178, 178);
+  max-width: 300px;
+  text-align: right;
+  font-size: xx-large;
+  font-weight: bolder;
+  cursor: not-allowed;
+}
+
+.numbers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40px;
+  width: 25%;
+  border: 1px solid gray;
+  cursor: pointer;
+  background-color: rgb(247, 231, 231);
+}
+
+.numbers:hover {
+  background-color: rgb(196, 215, 226) !important;
+}
